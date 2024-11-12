@@ -1,0 +1,277 @@
+﻿  &Temp.cpp
+  Q1System.cpp
+  Generating Code...
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41): error C2440: 'initializing': cannot convert from 'const _Ty' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41): error C2440:         with
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41): error C2440:         [
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41): error C2440:             _Ty=std::unique_ptr<Resource,std::default_delete<Resource>>
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41): error C2440:         ]
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(96,41):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [7]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [7]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,27):
+          Reason: cannot convert from 'const char [7]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,27):
+          while trying to match the argument list '(const char [7])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(106,15):
+      while trying to match the argument list '(const char [7])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [9]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,27):
+          Reason: cannot convert from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,27):
+          while trying to match the argument list '(const char [9])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(107,15):
+      while trying to match the argument list '(const char [9])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [9]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,27):
+          Reason: cannot convert from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,27):
+          while trying to match the argument list '(const char [9])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(108,15):
+      while trying to match the argument list '(const char [9])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [8]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [8]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,27):
+          Reason: cannot convert from 'const char [8]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,27):
+          while trying to match the argument list '(const char [8])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(109,15):
+      while trying to match the argument list '(const char [8])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [7]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [7]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,27):
+          Reason: cannot convert from 'const char [7]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,27):
+          while trying to match the argument list '(const char [7])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(110,15):
+      while trying to match the argument list '(const char [7])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,15): error C2664: 'void Catalog::addResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [8]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,27):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [8]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,27):
+          Reason: cannot convert from 'const char [8]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,27):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,27):
+          while trying to match the argument list '(const char [8])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(59,10):
+      see declaration of 'Catalog::addResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(111,15):
+      while trying to match the argument list '(const char [8])'
+  
+C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,15): error C2664: 'void Catalog::removeResource(std::unique_ptr<Resource,std::default_delete<Resource>>)': cannot convert argument 1 from 'const char [9]' to 'std::unique_ptr<Resource,std::default_delete<Resource>>'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,30):
+      'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(const std::unique_ptr<Resource,std::default_delete<Resource>> &)': cannot convert argument 1 from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>> &'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,30):
+          Reason: cannot convert from 'const char [9]' to 'const std::unique_ptr<Resource,std::default_delete<Resource>>'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,30):
+          Conversion requires a second user-defined-conversion operator or constructor
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3384,5):
+          could be 'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::auto_ptr<_Other> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3378,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3370,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::unique_ptr<Resource,std::default_delete<Resource>> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3367,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,std::default_delete<Resource> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3362,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,_Dx &&) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3358,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(Resource *,const _Dx &) noexcept'
+          with
+          [
+              _Dx=std::default_delete<Resource>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3345,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3342,5):
+          or       'std::unique_ptr<Resource,std::default_delete<Resource>>::unique_ptr(void) noexcept'
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,30):
+          while trying to match the argument list '(const char [9])'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(64,10):
+      see declaration of 'Catalog::removeResource'
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q1System\Q1System.cpp(117,15):
+      while trying to match the argument list '(const char [9])'
+  

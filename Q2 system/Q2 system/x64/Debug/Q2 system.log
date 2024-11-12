@@ -1,0 +1,191 @@
+﻿  Q2 system.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54): error C2679: binary '<': no operator found which takes a right-hand operand of type 'const _Ty' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54): error C2679:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54): error C2679:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54): error C2679:             _Ty=RegistrationRequest
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54): error C2679:         ]
+  (compiling source file 'Q2%20system.cpp')
+      C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q2 system\Q2 system.cpp(137,7):
+      could be 'bool RegistrationRequest::operator <(RegistrationRequest &) const'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool RegistrationRequest::operator <(RegistrationRequest &) const': cannot convert argument 2 from 'const _Ty' to 'RegistrationRequest &'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,62):
+              Conversion loses qualifiers
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue(187,17):
+      or       'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)': could not deduce template argument for 'const std::queue<_Ty,_Container> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
+      or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\deque(1809,17):
+      or       'bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)': could not deduce template argument for 'const std::deque<_Ty,_Alloc> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
+      or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
+      or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
+      or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
+      or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
+      or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
+      or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
+      or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
+      or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': could not deduce template argument for 'const _Elem *const ' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
+      or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
+      or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
+      or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
+      or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+          'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'const _Ty'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+      while trying to match the argument list '(const _Ty, const _Ty)'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2419,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q2 system\Q2 system.cpp(144,37):
+          see reference to class template instantiation 'std::priority_queue<RegistrationRequest,std::vector<RegistrationRequest,std::allocator<RegistrationRequest>>,std::less<_Ty>>' being compiled
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue(369,10):
+          while compiling class template member function 'void std::priority_queue<RegistrationRequest,std::vector<RegistrationRequest,std::allocator<RegistrationRequest>>,std::less<_Ty>>::push(const RegistrationRequest &)'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+              C:\Users\Ayanda\Desktop\Richfield_College\2024 Semester 2\PROG\Assignment\Q2 system\Q2 system.cpp(172,24):
+              see the first reference to 'std::priority_queue<RegistrationRequest,std::vector<RegistrationRequest,std::allocator<RegistrationRequest>>,std::less<_Ty>>::push' in 'main'
+          with
+          [
+              _Ty=RegistrationRequest
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\queue(371,14):
+          see reference to function template instantiation 'void std::push_heap<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Fn>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _Ty=RegistrationRequest,
+              _Fn=std::less<RegistrationRequest>,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<RegistrationRequest>>>,
+              _Pr=std::less<RegistrationRequest>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(6669,14):
+          see reference to function template instantiation 'void std::_Push_heap_by_index<RegistrationRequest*,RegistrationRequest,_Fn>(_RanIt,__int64,__int64,_Ty &&,_Pr)' being compiled
+          with
+          [
+              _Fn=std::less<RegistrationRequest>,
+              _RanIt=RegistrationRequest *,
+              _Ty=RegistrationRequest,
+              _Pr=std::less<RegistrationRequest>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(6650,26):
+          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,RegistrationRequest&,_Ty&>(std::less<_Ty>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=std::less<RegistrationRequest>,
+              _Ty=RegistrationRequest,
+              _Ty1=RegistrationRequest &,
+              _Ty2=RegistrationRequest &
+          ]
+  
