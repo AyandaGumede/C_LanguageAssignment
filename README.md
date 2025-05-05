@@ -1,4 +1,4 @@
-Richfield Library and Student Management Systems \n
+Richfield Library and Student Management Systems <br/>
 This repository contains a series of C++ programs developed as part of a Programming 622 assignment at Richfield College. The programs are designed to address real-world management needs for an academic library, course scheduling, and student club memberships. Each section demonstrates advanced object-oriented programming principles and makes use of efficient C++ Standard Library (STL) features.
 
 Table of Contents
